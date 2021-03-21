@@ -41,7 +41,7 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            "I'm currently a 4th year student at NIT Jaipur '21 batch 🎓 . Major in Metallurgy  and minor in Computer Science 👨‍💻 . I love Web Development and has a demonstrated history of working with web technologies like ReactJS and NodeJS. Excellent with programming and a good hold over Data Structures and Algorithms."
+            "I'm currently a 4th year student at NIT Jaipur '21 batch 🎓 . Major in Metallurgy and Minor in Computer Science 👨‍💻 . I love Web Development and has a demonstrated history of working with web technologies like ReactJS and NodeJS. Excellent with programming and a good hold over Data Structures and Algorithms."
         },
         {
           id: "second-p-about",
