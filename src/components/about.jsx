@@ -47,6 +47,25 @@ class About extends React.Component {
           content:
             "I'm a travelling enthusiast and football lover . Also been a National level chess player and part of an NGO H.O.P.E , member of TEDx MNIT Jaipur team and various cultural societies of college."
         },
+      ],
+      work_exp: [
+        {
+          id: "first",
+         role:"Full Stack Developer (Internship)",
+         company: "Classplus",
+         date: "Mar 2021 - Present"
+        },
+        {
+          id: "second",
+         role:"Web Developer (Internship)",
+         company: "Reflective AI",
+         date: "Sept 2020 - Dec 2020"
+        },{
+          id: "third",
+         role:"Full Stack Developer (Internship)",
+         company: "Kaviram",
+         date: "Jun 2020 - Aug 2020"
+        },
       ]
     };
   }
@@ -110,6 +129,22 @@ class About extends React.Component {
                           <p className="lead" key={content.id}>
                             {content.content}
                           </p>
+                        );
+                      })}
+                    </div>
+                    <div className="about-me pt-4 pt-md-0">
+                      <div className="title-box-2">
+                        <h5 className="title-left">Work Experience</h5>
+                      </div>
+                      {this.state.work_exp.map(content => {
+                        return (
+                          <div className="lead" key={content.id}>
+                            <h5 style={{margin:'0px'}}>{content.role}</h5>
+                            <span style={{fontSize:'16px'}}>{content.date}</span>
+                            <h6>{content.company}</h6>
+                           
+                            <br/>
+                          </div>
                         );
                       })}
                     </div>
