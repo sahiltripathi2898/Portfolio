@@ -1,3 +1,3 @@
-# Portfolio using ReactJS
+# Portfolio using ReactJS and Bootstrap
 
 Live Link -
