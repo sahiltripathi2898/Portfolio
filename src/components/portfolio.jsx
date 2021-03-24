@@ -1,11 +1,5 @@
 import React from "react";
 
-
-import stock from "../img/Dev1.png";
-import stock1 from "../img/Dev2.png";
-import stock2 from "../img/Dev3.png";
-import stock3 from "../img/Dev4.png";
-import stock4 from "../img/Dev5.png";
 //import Images from Dev
 import dev from "../img/Dev1.png";
 import dev1 from "../img/Dev2.png";
@@ -22,6 +16,10 @@ import algo3 from "../img/Algo2.png";
 //import Images from PWA
 import pwa from "../img/PWA1.png";
 import pwa1 from "../img/PWA2.png";
+
+//import Images from Cart
+import cart from "../img/Cart1.png";
+import cart1 from "../img/Cart2.png";
 
 
 class Portfolio extends React.Component {
@@ -190,6 +188,53 @@ class Portfolio extends React.Component {
                 <a
                   href={pwa1}
                   data-lightbox="gallery-todo"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="work-box">
+                <a href={cart} data-lightbox="gallery-aguadeluz">
+                  <div className="work-img">
+                    <img src={cart} alt="" className="img-fluid" />
+                  </div>
+                  </a>
+                  <div className="work-content">
+                    <div className="row">
+                      <div className="col-sm-8">
+                        <h2 className="w-title">Shopping Cart</h2>
+                        <div className="w-more">
+                          <span>
+                            Shopping cart with dynamic updation and local storage caching 
+                          </span>
+                          <br/>
+                          <span className="w-ctegory">
+                            ReactJS
+                          </span>
+                        </div>
+                      </div>
+                      <div className="col-sm-4">
+                        <div className="w-like">
+                        <a href="https://main.d356qy3qkpcjks.amplifyapp.com/" target="_blank">
+                          <span className="ion-ios-plus-outline"></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                
+                <a
+                  href={cart}
+                  data-lightbox="gallery-aguadeluz"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={cart1}
+                  data-lightbox="gallery-aguadeluz"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
