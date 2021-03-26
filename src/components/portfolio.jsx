@@ -75,7 +75,7 @@ class Portfolio extends React.Component {
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
-                  jsx-a11y/anchor-has-content warning
+                  jsx-a11y/anchor-has-content warning 
                 </a>
                 <a
                   href={dev2}
