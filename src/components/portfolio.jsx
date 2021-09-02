@@ -32,7 +32,7 @@ class Portfolio extends React.Component {
               <div className="title-box text-center">
                 <h3 className="title-a">Projects</h3>
                 <p className="subtitle-a">
-                  I have projects mostly related to Web Development using ReactJS for Frontend and NodeJS for Backend development.
+                  Building projects releated to Websites, Web-apps and PWA's.
                 </p>
                 <div className="line-mf"></div>
               </div>
